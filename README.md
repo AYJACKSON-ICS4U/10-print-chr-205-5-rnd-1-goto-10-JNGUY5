@@ -3,5 +3,5 @@
 
 ## 10 PRINT CODE
 https://imgur.com/3L058ib
-![10 print](https://imgur.com/3L058ib)
+![10 print](https://imgur.com/3L058ib.png)
 This is my picture of my 10 print project 
