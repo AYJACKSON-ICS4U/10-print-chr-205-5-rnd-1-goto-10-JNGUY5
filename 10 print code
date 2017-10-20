@@ -1,0 +1,26 @@
+let x=0;
+let y=0;
+let spacing = 10;
+
+function setup() {
+
+  createCanvas(400,400);
+  background(0);
+}
+
+function draw() {
+  stroke(60,90,250);
+  if (random(1)<0.5){
+    stroke(60,90,250);
+    line(x,y,x+10,y+spacing);
+  }else{
+    stroke(250,0,0);
+  line(x,y+spacing,x+spacing,y);
+  }
+  x=x+spacing;
+  if (x>width){
+  x=0;
+  y=y+spacing;
+  }
+  
+}
